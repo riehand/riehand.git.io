@@ -1,0 +1,90 @@
+/* Reset CSS */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.potopas {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.paspoto {
+  width: 100px;   /* Ukuran Lebar */
+  height: 100px;  /* Ukuran Tinggi */
+  max-width: 100px;  /* Mencegah gambar membesar */
+  max-height: 100px; /* Mencegah gambar membesar */
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  object-fit: cover; /* Memastikan gambar tetap proporsional */
+  display: block; /* Membantu agar gambar tetap dalam posisi tengah */
+  margin: auto; /* Menengahkan gambar */
+  border: 3px solid white; /* Memberikan efek garis putih */
+}
+
+/* Konten Utama */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+article {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #f59e0b;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
